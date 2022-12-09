@@ -1,9 +1,9 @@
-package es.nhs.listausuariosroom.repository
+package es.jms.listausuariosroom.repository
 
 import android.content.Context
-import es.nhs.listausuariosroom.dao.UsuarioDao
-import es.nhs.listausuariosroom.data_base.UsuarioDataBase
-import es.nhs.listausuariosroom.models.Usuario
+import es.jms.listausuariosroom.dao.UsuarioDao
+import es.jms.listausuariosroom.data_base.UsuarioDataBase
+import es.jms.listausuariosroom.models.Usuario
 
 /**
  * Created by Neil on 02,diciembre,2022

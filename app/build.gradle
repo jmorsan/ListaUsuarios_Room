@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'es.nhs.listausuariosroom'
+    namespace 'es.jms.listausuariosroom'
     compileSdk 33
 
     defaultConfig {
-        applicationId "es.nhs.listausuariosroom"
+        applicationId "es.jms.listausuariosroom"
         minSdk 33
         targetSdk 33
         versionCode 1

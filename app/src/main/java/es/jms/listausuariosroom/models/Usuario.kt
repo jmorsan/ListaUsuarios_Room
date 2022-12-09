@@ -1,4 +1,4 @@
-package es.nhs.listausuariosroom.models
+package es.jms.listausuariosroom.models
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

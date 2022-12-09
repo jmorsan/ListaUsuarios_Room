@@ -1,11 +1,11 @@
-package es.nhs.listausuariosroom.data_base
+package es.jms.listausuariosroom.data_base
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import es.nhs.listausuariosroom.dao.UsuarioDao
-import es.nhs.listausuariosroom.models.Usuario
+import es.jms.listausuariosroom.dao.UsuarioDao
+import es.jms.listausuariosroom.models.Usuario
 
 /**
  * Created by Neil on 02,diciembre,2022

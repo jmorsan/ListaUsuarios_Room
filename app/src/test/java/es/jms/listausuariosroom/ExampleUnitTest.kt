@@ -1,4 +1,4 @@
-package es.nhs.listausuariosroom
+package es.jms.listausuariosroom
 
 import org.junit.Test
 
