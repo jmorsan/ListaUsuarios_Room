@@ -19,6 +19,10 @@ class UsuarioRepository (context: Context){
         return usuarioDao.getAllUsuario()
     }
 
+    fun getUsuario(id:Int): Usuario {
+        return usuarioDao.getUsuario(id)
+    }
+
     fun insertUsuario(usuario: Usuario) {
         usuarioDao.insertarUsuario(usuario)
     }

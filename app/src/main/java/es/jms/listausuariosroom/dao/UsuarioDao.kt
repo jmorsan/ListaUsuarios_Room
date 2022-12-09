@@ -22,10 +22,14 @@ interface UsuarioDao {
     @Query("Select * from usuario")
     fun getAllUsuario(): List<Usuario>
 
+    @Query("Select * from usuario where idUsuario= :id")
+    fun getUsuario(id : Int): Usuario
+
     @Update
     fun updateUser(usuario: Usuario)
 
     @Delete
     fun deleteUsuario(usuario: Usuario)
+
 
 }
